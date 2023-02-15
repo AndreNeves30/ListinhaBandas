@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:background="#557470"
+    android:background="#A9A9A9"
     android:orientation="vertical">
 
     <LinearLayout
@@ -16,8 +16,7 @@
             android:layout_height="150dp"
             android:layout_margin="20dp"
             android:scaleType="centerInside"
-            android:src="@drawable/starset"
-            />
+            android:src="@drawable/starset" />
 
 
         <LinearLayout
@@ -39,25 +38,26 @@
             <TextView
                 android:id="@+id/txtIntegrantes"
                 android:layout_width="wrap_content"
-                android:text="Integrantes: Dustin Bates, Ron DeChant, Brock Richards, Adam Gilbert. "
                 android:layout_height="wrap_content"
-                android:textColor="#000"
                 android:layout_marginTop="15sp"
                 android:padding="5sp"
+                android:text="Integrantes: Dustin Bates, Ron DeChant, Brock Richards, Adam Gilbert. "
+                android:textColor="#000"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/txtGenero"
-                android:text="Gênero: Rock Alternativo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#000"
                 android:layout_marginTop="15sp"
                 android:padding="5sp"
+                android:text="Gênero: Rock Alternativo"
+                android:textColor="#000"
                 android:textSize="15sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
-            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+</LinearLayout>
 

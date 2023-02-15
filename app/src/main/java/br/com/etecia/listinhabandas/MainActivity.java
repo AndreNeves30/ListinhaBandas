@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     int banda[] = {R.drawable.starset,R.drawable.imaginedragoes,R.drawable.newjeans,R.drawable.legiao,R.drawable.linkpark};
     String nome[] = {"Starset","Imagine Dragons","New Jeans","Legião Urbana","Linkin Park"};
-    String integrantes[] = {"Dustin Bates, Ron DeChant, Brock Richards, Adam Gilbert","Dan Reynolds, Daniel Wayne Sermon, Daniel Platzman, Ben McKee","Minji, Hanni, Danielle, Haerin, Hyein","Renato Russo, Renato Rocha, Marcelo Bonfá, Dados Vila Lobo","Chester Bennington, Mike Shinoda, Joe Hahn, Brad Delson, Rob Bourdon, David 'Phoenix' Farrell "};
-    String genero[] = {"Rock Alternativo","Pop, elctropop, pop rock, indie pop","K-pop","Rock","Rock Alternativo"};
+    String integrantes[] = {"Integrantes: Dustin Bates, Ron DeChant, Brock Richards, Adam Gilbert","Integrantes: Dan Reynolds, Daniel Wayne Sermon, Daniel Platzman, Ben McKee","Integrantes: Minji, Hanni, Danielle, Haerin, Hyein", "Integrantes: Renato Russo, Renato Rocha, Marcelo Bonfá, Dados Vila Lobo","Integrantes: Chester Bennington, Mike Shinoda, Joe Hahn, Brad Delson, Rob Bourdon, David 'Phoenix' Farrell "};
+    String genero[] = {"Genêro: Rock Alternativo","Genêro: Pop, elctropop, pop rock, indie pop","Genêro: K-pop","Genêro: Rock","Genêro: Rock Alternativo"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return banda.length;
+            return nome.length;
         }
 
         @Override
